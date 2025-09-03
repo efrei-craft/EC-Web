@@ -14,7 +14,7 @@
           <img src="/src/assets/images/ec_logo.png" class="h-32 w-auto mb-4" alt="Logo de l'EFREI CRAFT">
           <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Le club Minecraft de l'EFREI.</h1>
               </div>
-              <p class="mt-6 text-lg leading-8 text-gray-300">Nous sommes une association dédiée au jeu Minecraft (Bedrock & Java). Nous organisons des événements, des tournois et bien plus encore. Rejoignez-nous!</p>
+              <p class="mt-6 text-lg leading-8 text-gray-300">Nous sommes un club de l'EFREI dédié au jeu Minecraft (Bedrock & Java). Nous organisons des événements, des tournois et bien plus encore. Rejoignez-nous!</p>
               <div class="mt-10 flex items-center justify-center gap-x-6">
           <a href="https://discord.gg/f2uDScHZaN" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 flex items-center">
               <img src="/src/assets/svgs/discord-icon.svg" class="w-5 h-5 mr-2 text-white" alt="Discord">

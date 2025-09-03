@@ -19,8 +19,8 @@
                         <div class="h-6 w-0.5 self-center bg-gray-600 mx-2"></div>
 
                         <!-- <a class="rounded-md px-3 py-2 text-sm font-bold text-white hover:bg-gray-700 hover:text-white ml-4">Joueurs connectés: 10</a> -->
-                        <!-- <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
-                        <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Calendar</a> -->
+                        <RouterLink to="/place" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Craft / PLACE</RouterLink>
+                        <!-- <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Calendar</a>  -->
                     </div>
                 </div>
 
@@ -50,4 +50,6 @@ import { ref } from 'vue';
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline';
 
 const mobileMenuOpen = ref(false);
+
+import { RouterLink } from 'vue-router';
 </script>

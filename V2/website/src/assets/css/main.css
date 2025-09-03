@@ -23,3 +23,18 @@ body {
 .color-primary {
     color: var(--color-primary);
 }
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    font-size: 25px;
+    color: rgb(173, 173, 173);
+}
+
+h3 {
+    font-size: 15px;
+    color: rgb(173, 173, 173);
+}
