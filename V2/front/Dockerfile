@@ -4,12 +4,18 @@ FROM node:20-alpine AS build
 # Set working directory
 WORKDIR /app
 
+# Accept build argument
+ARG VITE_PRODUCTION=True
+
 # Install dependencies
 COPY package*.json ./
 RUN npm install
 
 # Copy the rest of the source code
 COPY . .
+
+# Set environment variable for production build
+ENV VITE_PRODUCTION=$VITE_PRODUCTION
 
 # Build the app
 RUN npm run build
