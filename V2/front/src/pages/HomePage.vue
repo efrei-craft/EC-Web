@@ -59,7 +59,7 @@ const isServerDropdownOpen = ref(false)
 
 const servers = [
   { name: 'Minijeux & Vanilla', ip: 'efrei-craft.fr' },
-  { name: 'Moddé', ip: 'beyond-depth.efrei-craft.fr' },
+  { name: 'Moddé', ip: 'modded.efrei-craft.fr' },
   { name: 'GTNH', ip: 'gtnh.efrei-craft.fr' },
 ]
 
